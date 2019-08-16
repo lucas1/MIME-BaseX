@@ -1,0 +1,16 @@
+Makefile.PL
+Changes
+MANIFEST
+META.json
+META.yml
+README.md
+t/base16.t
+t/base32.t
+t/base64.t
+t/base64url.t
+lib/MIME/BaseX.pm
+BaseX.xs
+baseX.c
+baseX.h
+ppport.h
+cpanfile
