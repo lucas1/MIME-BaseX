@@ -34,7 +34,7 @@ x_base16_decode(unsigned char *input)
         
     CODE:
         len = strlen(input);
-        output = malloc(sizeof(output) * (len / 2 - 1));
+        output = malloc(sizeof(output) * (len / 2 + 1));
         if (output != NULL)
             base16_decode(input, output, len);
             
