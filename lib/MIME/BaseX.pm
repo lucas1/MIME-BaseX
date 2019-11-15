@@ -6,7 +6,7 @@ use XSLoader;
 use MIME::Base64 qw/encode_base64 decode_base64 encode_base64url decode_base64url/;
 use Exporter 5.57 'import';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @EXPORT  = qw/
     base16_encode
     base16_decode
