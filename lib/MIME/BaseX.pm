@@ -20,25 +20,18 @@ our @EXPORT  = qw/
 XSLoader::load('MIME::BaseX', $VERSION);
 
 sub base64_encode {
-    my $self = shift;
     return encode_base64(shift, shift);
 }
 
-sub base64_decode {
-    my $self = shift;
-    
+sub base64_decode {    
     return decode_base64(shift);
 }
 
-sub base64url_encode {
-    my $self = shift;
-    
+sub base64url_encode {    
     return encode_base64url(shift);
 }
 
-sub base64url_decode {
-    my $self = shift;
-    
+sub base64url_decode {    
     return decode_base64url(shift);
 }
 
